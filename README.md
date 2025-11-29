@@ -1,14 +1,14 @@
-\# Task 6 – Sales Trend Analysis Using Aggregations
+# Task 6 – Sales Trend Analysis Using Aggregations
 
 
 
-\## 📘 Objective
+## 📘 Objective
 
 Analyze monthly revenue and monthly order volume from the `orders` table using SQL aggregation functions.
 
 
 
-\## 📂 Dataset
+## 📂 Dataset
 
 Table: `orders`
 
@@ -24,7 +24,7 @@ Columns:
 
 
 
-\## 🧠 SQL Logic Used
+## 🧠 SQL Logic Used
 
 \- `SUM(amount)` → Monthly Revenue
 
@@ -40,7 +40,7 @@ Columns:
 
 
 
-\## 📝 Final SQL Query (SQLite)
+## 📝 Final SQL Query (SQLite)
 
 ```sql
 
@@ -59,4 +59,5 @@ FROM orders
 GROUP BY year, month
 
 ORDER BY year, month;
+
 
